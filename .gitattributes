@@ -3,3 +3,4 @@ original_features/*/*.csv filter=lfs diff=lfs merge=lfs -text
 original_features/**/*.csv filter=lfs diff=lfs merge=lfs -text
 feature_reduction/**/*.csv filter=lfs diff=lfs merge=lfs -text
 feature_reduction/**/*.png filter=lfs diff=lfs merge=lfs -text
+models/* filter=lfs diff=lfs merge=lfs -text
