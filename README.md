@@ -1,5 +1,5 @@
 <p align="left">
-  <img src="https://aml.nik.uni-obuda.hu/themes/aml/assets/images/oe_nik_modern.png" style="width:1800px; height:190px; min-width:600px; min-height:100px; max-width:400px; max-height:64px;" />
+  <img src="https://aml.nik.uni-obuda.hu/themes/aml/assets/images/oe_nik_modern.png" width="1800" height="190" />
 </p>
 
 # 🧠 Brain Tumor Classification  
