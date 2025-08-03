@@ -41,16 +41,58 @@ Developed for **the BSc in Engineering Informatics, University of Óbuda in Hung
 ├── images/                  # Input images
 ├── output_images/           # Images sorted by class
 ├── image_classes.csv        # Image paths & classes
-├── original_features/       # Extracted features (CSV)
+├── original_features/       # Extracted original features (CSV)
+│   ├── canny/
+│   │     ├── all_combined_canny_features.csv
+│   │     ├── glcm_canny_features.csv
+│   │     ├── hog_canny_features.csv
+│   │     ├── hog_lbp_combined_canny_features.csv
+│   │     ├── lbp_canny_features.csv
+│   │     ├── sift_canny_features.csv
+│   │     └── stat_canny_features.csv
+│   ├── clahe/               # ⤷ has similar structure to `canny/`
+│   ├── gaussian/            # ⤷ has similar structure to `canny/`
+│   ├── original/            # ⤷ has similar structure to `canny/`
+│   └── sobel/               # ⤷ has similar structure to `canny/`
+│
 ├── feature_reduction/       # PCA-reduced features (CSV)
 │   ├── canny/
-│   ├── clahe/
-│   ├── gaussian/
-│   ├── original/
-│   └── sobel/
-├── plots/                   # Plots (e.g., accuracy, F1 etc.)
-├── models/                  # Trained models (optional)
+│   │     ├── all_combined/
+│   │     │        ├── all_combined_canny_pca_<n>.csv
+│   │     │        └── all_combined_canny_variance_plot.csv
+│   │     ├── glcm/
+│   │     ├── hog/
+│   │     ├── hog_lbp_combined/
+│   │     ├── lbp/
+│   │     ├── sift/
+│   │     └── stat/
+│   ├── clahe/               # ⤷ has similar substructure as `canny/`
+│   ├── gaussian/            # ⤷ has similar substructure as `canny/`
+│   ├── original/            # ⤷ has similar substructure as `canny/`
+│   └── sobel/               # ⤷ has similar substructure as `canny/`
+│
+├── plots/                  # Plots by model reports(e.g., accuracy, F1 etc.)
+│   ├── <model_name>_accuracy_boxplot.png
+│   ├── <model_name>_f1_barplot.png
+│   ├── <model_name>_weighted_f1_barplot.png
+│   └── <model_name>_weighted_f1_feature_boxplot.png
+│
+├── models/                 # Trained models & reports
+│   ├── decision_tree.ipynb
+│   ├── decision_tree_results_with_reports.csv
+│   ├── logistic_regression.ipynb
+│   ├── logistic_regression_results_with_reports.csv
+│   ├── nn.ipynb
+│   ├── nn_results_with_reports.csv
+│   ├── random_forest.ipynb
+│   ├── random_forest_results_with_reports.csv
+│   ├── svm.ipynb
+│   ├── svm_results_with_reports.csv
+│   ├── xgboost.ipynb
+│   └── xgboost_results_with_reports.csv
+│
 └── README.md
+
 ```
 
 ---
