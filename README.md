@@ -31,6 +31,17 @@ Supports multiple feature types (HOG, LBP, SIFT, GLCM, statistics) and preproces
 
 Developed for **the BSc in Engineering Informatics, University of Óbuda in Hungary, AI specialization**.
 
+<p>
+  <strong>
+    <span style="background-color:#ffeeba; color:#000000; padding:6px; border-radius:4px; display:inline-block;">⚠️ NOTE:</span>
+  </strong>
+  <i>Training and evaluation of the models were carried out using 
+  <a href="https://lambdalabs.com/" target="_blank"><strong>Lambda GPU cloud servers</strong></a>, 
+  as training locally would have been significantly slower and inefficient.</i>
+</p>
+
+
+
 ---
 
 ## 📁 Folder Structure
@@ -71,7 +82,7 @@ Developed for **the BSc in Engineering Informatics, University of Óbuda in Hung
 │   ├── original/            # ⤷ has similar substructure as `canny/`
 │   └── sobel/               # ⤷ has similar substructure as `canny/`
 │
-├── plots/                  # Plots by model reports(e.g., accuracy, F1 etc.)
+├── plots/                  # Diagrams by model reports(e.g., accuracy, F1 etc.)
 │   ├── <model_name>_accuracy_boxplot.png
 │   ├── <model_name>_f1_barplot.png
 │   ├── <model_name>_weighted_f1_barplot.png
@@ -169,9 +180,13 @@ See the `plots/` folder for detailed accuracy and F1-score distributions by prep
 
 ## 🤝 Contribution
 
-> **Currently not accepting unsolicited contributions.**  
-> For collaboration or suggestions, please contact the author directly.  
-> All proposals will be considered on a case-by-case basis.
+<div style="background-color:#f8f9fa; border-left:6px solid red; padding:16px; border-radius:6px; font-size:15px; line-height:1.6;">
+  <strong style="color:#000;">🚫 Currently not accepting unsolicited contributions.</strong><br>
+  <i style="color:black;">For collaboration or suggestions, please contact the author directly.<br>
+  All proposals will be considered on a case-by-case basis. </i>
+</div>
+
+
 
 ---
 
